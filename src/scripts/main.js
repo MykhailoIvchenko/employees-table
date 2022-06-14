@@ -213,6 +213,14 @@ function handleFormInformation(e) {
     return;
   }
 
+  if (userData.salary <= 0) {
+    createNotification('error', 'Error!', 'Salary should be more then 0!');
+
+    currentSalary.value = null;
+
+    return;
+  }
+
   createNotification('success', 'Congrats!', 'New employee was added!');
   createNewEmployee(userData);
 
@@ -418,6 +426,16 @@ function saveChanges(currentInput, currentColumn) {
 
       case 5:
         const salaryAmount = toNumber(currentInput.value);
+
+        if (salaryAmount <= 0) {
+          createNotification('error',
+            'Error!', 'Salary should be more then 0!');
+
+          currentInput.value = '';
+          currentInput.focus();
+
+          return;
+        }
 
         if (typeof (salaryAmount) !== 'number') {
           createNotification('error', 'Error!', 'You should write a number');
