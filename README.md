@@ -2,11 +2,11 @@
 The table represents information about some employees.
 But user can do something with this table, not just look at it.
 You can see the list of available features below:
-1) table sorting by clicking on the title (in two directions).
-2) when user clicks on a row, it becomes selected.
-3) there is a form added by script. Form allows users to add new employees to the spreadsheet.
-4) if form data is invalid the corresponding notification appears.
-5) user can edit table cells after double-clicking on it. Only one cell can be edited at the time.
+- table sorting by clicking on the title (in two directions).
+- when user clicks on a row, it becomes selected.
+- there is a form added by script. Form allows users to add new employees to the spreadsheet.
+- if form data is invalid the corresponding notification appears.
+- user can edit table cells after double-clicking on it. Only one cell can be edited at the time.
 On blur or 'Enter' keypress changes are saved to table cell. If a new value is empty on submitting
 initial value returns to the cell.
 
