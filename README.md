@@ -10,7 +10,7 @@ You can see the list of available features below:
 On blur or 'Enter' keypress changes are saved to table cell. If a new value is empty on submitting
 initial value returns to the cell.
 
-2. Technologies stack: HTML5, CSS3, BEM, SASS (I was provided with ready markup and SCSS), JS.
+2. Technologies stack: HTML5, CSS3, SASS (I was provided with ready markup and SCSS), JS.
 
 3. Preview link: https:/mykhailoivchenko.github.io/employees-table/
 
